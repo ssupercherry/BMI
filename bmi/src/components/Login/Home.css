@@ -1,0 +1,75 @@
+.logout{
+float:right;
+margin:10px 0px;
+}
+html, body {
+    height: 100%;
+    width: 80%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    /* CSS Goes Here */
+    .centered {
+      font-size: 50px;
+      font-family: 'Salmela Script', sans-serif;
+      position: absolute;
+      top: 42%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    /* Container needed to position the button. Adjust the width as needed */
+    /*.container {
+      position: relative;
+      width: 100%;
+    }
+
+    /* Make the image responsive */
+    .container img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Style the button and place it in the middle of the container/image */
+    .container .btnR {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #808000;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .container .btnR:hover {
+      background-color: black;
+    }
+    .container .btnL {
+      position: absolute;
+      top: 50%;
+      left: 45%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #808000;
+      color: white;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .container .btnL:hover {
+      background-color: black;
+    }

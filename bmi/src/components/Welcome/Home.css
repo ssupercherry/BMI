@@ -1,0 +1,30 @@
+.logout{
+float:right;
+margin:10px 0px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+html {
+    display: table;
+    margin: auto;
+    
+
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.bg {
+    background-image: url("https://cdn.wallpapersafari.com/9/21/x0QRZq.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
